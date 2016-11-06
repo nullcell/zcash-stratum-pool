@@ -1,20 +1,20 @@
 {
-    "name": "stratum-pool",
+    "name": "zcash-stratum-pool",
     "version": "0.1.6",
-    "description": "High performance Stratum poolserver in Node.js",
+    "description": "High performance ZCash Stratum poolserver in Node.js",
     "keywords": [
         "stratum",
         "mining",
         "pool",
         "server",
         "poolserver",
-        "bitcoin",
-        "litecoin",
-        "scrypt"
+        "zcash",
+        "zclassic",
+        "equihash"
     ],
-    "homepage": "https://github.com/zone117x/node-stratum-pool",
+    "homepage": "https://github.com/nullcell/zcash-stratum-pool",
     "bugs": {
-        "url": "https://github.com/zone117x/node-stratum-pool/issues"
+        "url": "https://github.com/nullcell/zcash-stratum-pool/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -25,10 +25,10 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-stratum-pool.git"
+        "url": "https://github.com/nullcell/zcash-stratum-pool.git"
     },
     "dependencies": {
-        "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
+        "multi-hashing": "git://github.com/nullcell/zcash-multi-hashing.git",
         "bignum": "*",
         "base58-native": "*",
         "async": "*"
