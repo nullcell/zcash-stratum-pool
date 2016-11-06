@@ -1,3 +1,11 @@
+# ZCash Stratum Protocol Fork
+This is a fork of NOMP and node-stratum-pool modified to use the ZCash Stratum Protocol and the zcash block template and block header format.
+
+## WORK IN PROGRESS
+Note this is a work in progress and is not fully functional yet.
+
+----
+
 High performance Stratum poolserver in Node.js. One instance of this software can startup and manage multiple coin
 pools, each with their own daemon and stratum port :)
 
